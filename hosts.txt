@@ -1,0 +1,13 @@
+[group_1]
+linux1 ansible_host=172.31.38.225      owner=user_1    
+     
+[group_2]
+linux2 ansible_host=172.31.39.77       owner=user_2    
+
+[group_3]
+linux3 ansible_host=172.31.36.190      owner=user_3    
+
+
+[iaas:children]
+group_1
+group_2
