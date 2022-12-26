@@ -9,7 +9,7 @@
 * Create an inventory file with four groups (as specified in the task) ===>>> ***[inventory file](hosts.txt)***
 * Connect to managed servers;
 * Create Role: creating a empty file /etc/iaac with rigths 0500 ===>>> ***[role for empty file](roles/empty_file0500/tasks/)***
-* Create Role: fetch a linux distro name and version. ===>>> ***[role for disrto name version](roles/distro_name_version/tasks/)***
+* Create Role: fetch a linux distro name and version. ===>>> ***[role for distro name version](roles/distro_name_version/tasks/)***
 * Create PlayBook with both Roles ===>>> ***[Playbook](playbook_1.yml)***
 
 To run Playbook use : ansible-playbook playbook_1.yml
