@@ -1,9 +1,5 @@
 ---
 # tasks file for distro_name_version
-- name: fetch a linux distro name and version
-  hosts: all
-  become: yes
-  
-  tasks:
+
   - debug:
       msg: "Host={{ ansible_facts['nodename'] }} Distro={{ ansible_facts['distribution'] }} Version={{ ansible_facts['distribution_version'] }}"
